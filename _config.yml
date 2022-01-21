@@ -17,3 +17,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+exclude:
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
